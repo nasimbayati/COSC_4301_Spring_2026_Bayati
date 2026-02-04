@@ -4,7 +4,7 @@ public class Main {
 
         Monster myMonster = new Monster("Emberclaw", "Fire");
 
-        System.out.println("Your monster has been created.");
-        System.out.println("Description: " + myMonster.getDescription());
+        System.out.println(myMonster.getDescription());
+
     }
 }
